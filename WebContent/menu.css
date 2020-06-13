@@ -1,0 +1,4 @@
+*{margin: 0px; padding: inherit;}
+#menu ul{ list-style: none}
+#menu ul li{background-color: red; border: 1px solid yellow; width:305px; height:35px;line-height:35px;text-align: center;float: left ; position: relative; border-radius: 10px;}
+#menu ul li a{text-decoration: none;color: green;display: block;}*/

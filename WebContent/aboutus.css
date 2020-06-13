@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.team5{
+    overflow: hidden;
+    text-align: center;
+    background: rgb(228, 156, 90);
+  
+    padding: 150px;
+}
+.team5 h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: aqua;
+    font-size: 40px;
+}
+.gjghjhgjborder{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 5px;
+    background: yellow;
+}
+.team5{
+    margin-bottom: 40px;
+}
+.team5 a{
+    display: inline-block;
+  
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+.section{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+.section:target{
+    height: auto;
+}
+.name{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}

@@ -1,0 +1,41 @@
+body{
+   
+    background-image: url(backgroung.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.login-box{
+    width: 600px;
+    height: 400px;
+    background:rgba(0,0,0,0.5);
+    color: #fff;
+    top:20%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50);
+    box-sizing:border-box;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h1{
+    margin:40px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+}
+img{
+    width: 65px;
+    height: 65px;
+    padding-top: 50px;
+    padding-left: 57px;
+}

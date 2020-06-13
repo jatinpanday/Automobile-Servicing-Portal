@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Automobile Servicing Portal</title>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<img src="../Automobileportal/banner.jpg" style="width:1275px;height:200px;">
+	<div class="banner" align="center">
+		<b>KCC AUTOMOBILE SERVICING PORTAL</b> 
+	</div>
+	<div class="menu">
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="homepage.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="serreq.html">Service Request</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="contact.html">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="ReviewController">Reviews</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="PriceDispController">Price List</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        
+        
+    </div></br></br></br>
+
+    <div class="onlsereq">
+    <form method="get" action="SerReqCustServlet">
+		<center>
+            
+            <b> Vehicle Type:</b><input type="radio" name="car" value="car" required/>Car&nbsp;
+                                 <input type="radio" name="bike" value="bike" required/>Bike<br><br>
+
+            <b> Service Type</b><input type="radio" name="service1" value="service1" required/>General Service&nbsp;
+                                 <input type="radio" name="service2" value="service2" required/>Deep Service&nbsp;
+                                 <input type="radio" name="service3" value="service3" required/>Special Package 1&nbsp;
+                                 <input type="radio" name="service4" value="service4" required/>Special Package 2<br><br>
+    <label>Booking Date</label>
+    <input type="date" required/><br><br>
+    
+
+    <button style="padding: 5px 50px" onclick="Submit">Next</button>
+            
+        </center>
+    </form>
+	</div>
+</body>
+</html>
